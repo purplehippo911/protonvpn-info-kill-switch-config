@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+echo "Installing binaries....."
+
+curl -fSL https://raw.githubusercontent.com/purplehippo911/protonvpn-info-kill-switch-config/main/pvinfo -o /usr/local/bin/pvinfo
+curl -fSL https://raw.githubusercontent.com/purplehippo911/protonvpn-info-kill-switch-config/main/pvkill -o /usr/local/bin/pvkill
+
+chmod +x /usr/local/bin/pvinfo
+chmod +x /usr/local/bin/pvkill
+
+echo -e "\n Binaries installed! \n"
+
+echo -e "\n Run 'pvinfo' to see if your vpn is connected. \n"
+echo -e "\n Run 'pvkill' to see if your kill-switch is on, and toggle it on/off"
+
+echo -e "\n Hope you have a good day/night :) \n"
