@@ -1,11 +1,12 @@
- A bash script to see if your protonvpn is on/off and another bash script to see if kill-switch is on/off and turn kill-switch on/off. 
+A bash script to see if your protonvpn is on/off and another bash script to see if kill-switch is on/off and turn kill-switch on/off. 
 
-Works best on Arch Linux, and similar Linux distros. 
+**Only works on protonvpn's CLI.**
 
+Works best on Arch Linux, and similar Linux distros. You are free to try it on your OS/Distro on your own risk. Remember to backup your personal files and filestructure before just in case. (ie, snapshots or Timeshifts)
 
 ## Download
 
-** You obviosly need protonvpn cli downloaded first before you're capable of using this command. For now works best on Archlinux. unsure about how it works on other distros or OS's. You're free to try but i do not take any responsibility. Backup your filestructure before you do something risky. :) **
+**You obviously need Protonvpn CLI downloaded first.**
 
 
 ### Copy this
@@ -14,3 +15,15 @@ Works best on Arch Linux, and similar Linux distros.
 curl -fSL "https://githubusercontent.com/purplehippo911/protonvpn-info-kill-switch-config/main/install" | bash
 `
 
+## Running commands
+
+`
+pvinfo # tells you if proton vpn is on or off.
+`
+
+`
+pvkill # tells u if the kill-switch is on or off. You can also turn it on or off.
+`
+
+## Legal Reminder
+I am not affiliated with proton VPN or Proton in anyway. I am just a user who some scripts that made my usage of the vpn easier, and wanted to share it with others for free of charge to do whatever they want with it legally.
