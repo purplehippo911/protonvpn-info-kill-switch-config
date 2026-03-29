@@ -11,19 +11,19 @@ Works best on Arch Linux, and similar Linux distros. You are free to try it on y
 
 ### Copy this
 
-`
+```
 curl -fSL "https://raw.githubusercontent.com/purplehippo911/protonvpn-info-kill-switch-config/main/install" | bash
-`
+```
 
 ## Running commands
 
-`
+```
 pvinfo # tells you if proton vpn is on or off.
-`
+```
 
-`
+```
 pvkill # tells u if the kill-switch is on or off. You can also turn it on or off.
-`
+```
 
 ## Legal Reminder
 I am not affiliated with proton VPN or Proton in anyway. I am just a user who some scripts that made my usage of the vpn easier, and wanted to share it with others for free of charge to do whatever they want with it legally.
