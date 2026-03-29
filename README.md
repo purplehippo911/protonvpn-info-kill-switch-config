@@ -12,7 +12,7 @@ Works best on Arch Linux, and similar Linux distros. You are free to try it on y
 ### Copy this
 
 `
-curl -fSL "https://githubusercontent.com/purplehippo911/protonvpn-info-kill-switch-config/main/install" | bash
+curl -fSL "https://raw.githubusercontent.com/purplehippo911/protonvpn-info-kill-switch-config/main/install" | bash
 `
 
 ## Running commands
